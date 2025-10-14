@@ -9,3 +9,5 @@ test commit update
 git add .
 git commit -m "commit message"
 git push origin -f
+
+git via vs code plugin
