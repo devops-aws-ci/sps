@@ -1,0 +1,8 @@
+[
+  {
+    "from": "booking@e.transavia.com",
+    "subject": "Confirmation de réservation : Votre voyage à destination de Paris (Orly)",
+    "date": "2025-10-16T17:52:53.000Z",
+    "body": "Delivered-To: cloudsecops.services@gmail.com\r\nReceived: by 2002:aa6:da44:0:b0:309:d5d3:1580 with SMTP id k4csp6114702lkc;\r\n        Thu, 16 Oct 2025 10:52:54 -0700 (PDT)\r\nX-Google-Smtp-Source: AGHT+IEbG3ojrplHH2VfZu8xB+IYDab+pyizd/SrUa3LWm/ZOCXDvFmLwz6Z1bgfy3R5LoMapjrx\r\nX-Received: by 2002:a05:6000:2305:b0:3e7:d199:7889 with SMTP id ffacd0b85a97d-42704d8f207mr765774f8f.27.1760637174357;\r\n        Thu, 16 Oct 2025 10:52:54 -0700 (PDT)\r\nARC-Seal: i=1; a=rsa-sha256; t=1760637174; cv=none;\r\n        d="
+  }
+]
