@@ -35,13 +35,14 @@ app.get("/api/messages", async (req, res) => {
   try {
     await readInbox(); // refresh inbox
     const data = fs.readFileSync("./server/messages.json", "utf-8");
-    const messages = JSON.parse(data);
-    res.json({ count: messages.length, messages });
+    const message = JSON.parse(data);
+    res.json(message);
   } catch (err) {
     console.error("❌ Error in /api/messages:", err);
     res.status(500).json({ error: "Failed to fetch messages" });
   }
 });
+
 
 // Start server
 const PORT = 4000;

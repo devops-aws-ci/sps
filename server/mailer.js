@@ -1,24 +1,21 @@
-// server/mailer.js
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
-
 dotenv.config();
 
-const transporter = nodemailer.createTransport({
-  service: "gmail",
+export const transporter = nodemailer.createTransport({
+  host: process.env.SMTP_HOST,
+  port: Number(process.env.SMTP_PORT),
+  secure: process.env.SMTP_SECURE === "true",
   auth: {
-    user: process.env.MAIL_USER,
-    pass: process.env.MAIL_PASS,
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
   },
 });
 
 export async function sendEmail(to, subject, body) {
   try {
-    console.log("MAIL_USER:", process.env.MAIL_USER);
-    console.log("MAIL_PASS:", process.env.MAIL_PASS ? "********" : "❌ MISSING");
-
     const info = await transporter.sendMail({
-      from: `"SPS Simulation" <${process.env.MAIL_USER}>`,
+      from: `"SPS Simulation" <${process.env.SMTP_USER}>`,
       to,
       subject,
       text: body,

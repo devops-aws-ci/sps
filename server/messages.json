@@ -1,8 +1,6 @@
-[
-  {
-    "from": "booking@e.transavia.com",
-    "subject": "Confirmation de réservation : Votre voyage à destination de Paris (Orly)",
-    "date": "2025-10-16T17:52:53.000Z",
-    "body": "Delivered-To: cloudsecops.services@gmail.com\r\nReceived: by 2002:aa6:da44:0:b0:309:d5d3:1580 with SMTP id k4csp6114702lkc;\r\n        Thu, 16 Oct 2025 10:52:54 -0700 (PDT)\r\nX-Google-Smtp-Source: AGHT+IEbG3ojrplHH2VfZu8xB+IYDab+pyizd/SrUa3LWm/ZOCXDvFmLwz6Z1bgfy3R5LoMapjrx\r\nX-Received: by 2002:a05:6000:2305:b0:3e7:d199:7889 with SMTP id ffacd0b85a97d-42704d8f207mr765774f8f.27.1760637174357;\r\n        Thu, 16 Oct 2025 10:52:54 -0700 (PDT)\r\nARC-Seal: i=1; a=rsa-sha256; t=1760637174; cv=none;\r\n        d="
-  }
-]
+{
+  "from": "cloudsecops.services@gmail.com",
+  "subject": "🚀 Lancement officiel du projet Projet SPS",
+  "date": "2025-10-17T00:12:00.000Z",
+  "body": "Delivered-To: safrawiihab@gmail.com\r\nReceived: by 2002:a05:7010:c998:b0:4a3:9d0d:63ef with SMTP id kd24csp6525114mdb;\r\n        Thu, 16 Oct 2025 17:12:02 -0700 (PDT)\r\nX-Received: by 2002:a5d:5c89:0:b0:3ec:dfe5:17d0 with SMTP id ffacd0b85a97d-42704d7ea22mr998686f8f.9.1760659921821;\r\n        Thu, 16 Oct 2025 17:12:01 -0700 (PDT)\r\nARC-Seal: i=1; a=rsa-sha256; t=1760659921; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=JDfBEnCTfEdrscf25HJMhExuif9mgiNW5HhwnCyXRJQ/OVnAahtWrwbhmFYPh//5/z\r\n "
+}
