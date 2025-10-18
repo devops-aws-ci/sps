@@ -30,7 +30,7 @@ If you are developing a production application, we recommend using TypeScript wi
   },
 
 ## Fronend app launch and test
-*npm run start:frontend*
+npm run start:frontend
 ![alt text](/images/image-1.png)
 
 ## recompiler l application
