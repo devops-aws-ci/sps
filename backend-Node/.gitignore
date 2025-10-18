@@ -1,0 +1,55 @@
+# === Node / Dependencies ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Build Output ===
+dist/
+build/
+.vite/
+.vitepress/
+coverage/
+*.tsbuildinfo
+
+# === Local Environment ===
+.env
+.env.*
+!.env.example
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Logs ===
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# === OS / Temp ===
+*.tmp
+*.temp
+*.bak
+*.old
+
+# === Generated Data ===
+*.local
+*.lock
+package-lock.json
+
+# === Optional: Ignore personal workspace files ===
+/data/generated/
+/uploads/
+/.cache/
+
+# === Tailwind / PostCSS Cache ===
+.postcss-cache/
