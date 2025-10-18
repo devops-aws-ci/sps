@@ -1,0 +1,6 @@
+{
+  "from": "cloudsecops.services@gmail.com",
+  "subject": "Retour wireframes - Ajouts souhaités",
+  "date": "2025-10-18T19:44:00.000Z",
+  "body": "Delivered-To: safrawiihab@gmail.com\r\nReceived: by 2002:a17:906:2b04:b0:b3b:45a9:57ae with SMTP id a4csp6477307ejg;\r\n        Sat, 18 Oct 2025 12:44:05 -0700 (PDT)\r\nX-Received: by 2002:a05:600c:4511:b0:46e:1a5e:211 with SMTP id 5b1f17b1804b1-47117907a5dmr50243305e9.21.1760816645024;\r\n        Sat, 18 Oct 2025 12:44:05 -0700 (PDT)\r\nARC-Seal: i=1; a=rsa-sha256; t=1760816645; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=Jja3x1KG1erBKrCzNZXXgUaWlJjKlon7AaSUpA2rMCiR9udf3z0QEg+J6+Z8d3U3vR\r\n"
+}

@@ -29,21 +29,16 @@ If you are developing a production application, we recommend using TypeScript wi
     "preview": "vite preview"
   },
 
-## Backend app launch and test
+## Fronend app launch and test
 *npm run start:frontend*
 ![alt text](/images/image-1.png)
 
-1️⃣ Test email sending (again)
-curl -X POST http://localhost:4000/api/start \
-  -H "Content-Type: application/json" \
-  -d '{"phase": "conception", "target": "safrawiihab@gmail.com"}'
+## recompiler l application
+rm -rf dist node_modules .vite
+npm install
+npm run build
 
-2️⃣ Test inbox reading
-curl http://localhost:4000/api/messages
-
-
-## Fronend app launch and testg 
-npm run start:backend
-![alt text](/images/image.png)
-
+## Run app 
+npm run preview
+npm run start:frontend
 
