@@ -15,7 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-## Run application first see in package.json cofig , the start function call
+## Run application first see in "package.json" cofig , the start main code function call
 {
   "name": "sps",
   "private": true,
@@ -30,15 +30,20 @@ If you are developing a production application, we recommend using TypeScript wi
   },
 
 ## Fronend app launch and test
+cd ~/work/sps/frontend-react-vite/
 npm run start:frontend
 ![alt text](/images/image-1.png)
 
+http://localhost:5173/
+
 ## recompiler l application
+cd ~/work/sps/frontend-react-vite/
 rm -rf dist node_modules .vite
 npm install
 npm run build
 
-## Run app 
+## Run app
+cd ~/work/sps/frontend-react-vite/
 npm run preview
 npm run start:frontend
 
